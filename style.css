@@ -1,0 +1,146 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+html{
+    font-size: 62.3%;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #494949;
+    color: black;
+margin: auto;
+}
+main{
+    width: 30vw;
+    /* height: 100vh; */
+    text-align: center;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border: solid purple;
+    border-radius: 1rem ;
+    padding: 2rem;
+    margin: auto;
+
+}
+.welComeToGame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+img{
+    width: 90%;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 3rem auto;
+}
+
+button{
+    margin-bottom: 1rem;
+    width: 20rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:last-child{
+    background-color: blue;
+}
+
+ button:hover{
+    box-shadow: rgba(51, 51, 199, 0.4);
+    font-size: 1.4rem;
+ }
+
+ /* game start */
+
+ #gameArea{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ input{
+    width: 20rem;
+    font-size: 2rem;
+    padding: 1.4rem 0;
+    text-align: center;
+    margin-bottom: 3rem;
+ }
+
+ p{
+    font-size: 2rem;
+ }
+
+ .info{
+     width: 400px;
+     display: flex;
+     justify-content: space-around;
+     /* border: 1px solid red; */
+     margin: 0 auto 1rem auto;
+
+ }
+    
+.para{
+    font-size: 1.5rem;
+}
+#attempt{
+    font-size: 1.5rem;
+}
+
+
+/* Responsive Random  */
+@media  screen and (max-width:950px )and(min-width:500px) {
+    main{
+        width: 50vw;
+        /* height: 100vh; */
+        text-align: center;
+        
+    
+    }
+}
+
+@media  screen and (max-width:500px) {
+    main{
+        width: 70vw;
+        /* height: 100vh; */
+        text-align: center;
+        
+    
+    }
+}
+ 
+ 
+
